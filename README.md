@@ -3,7 +3,7 @@ Python ini file manipulator
 
 To open an ini file, pass a string or a file stream to the ini class.
 
-Edit the ini as if the ini class is a dictionary full of dictionaries. __default__ maps to items without a group at the top of the ini file
+Edit the ini as if the ini class is a dictionary full of dictionaries. \_\_default\_\_ maps to items without a group at the top of the ini file
 For example
 ```python
 >>> i = ini.ini("""
