@@ -104,7 +104,7 @@ class ini:
                 elif (y[0] == -1) and (y[1] == "raw"):
                     output.append(y[2])
                 else:
-                    output.append(y[0] + ' = ' + y[1])
+                    output.append(str(y[0]) + ' = ' + str(y[1]))
         output = '\n'.join(output)
         if stream == None:
             return output
